@@ -52,5 +52,3 @@ proceed_to_checkout.click()
 
 # Quit the web browser
 driver.quit()
-
-"Ram"
