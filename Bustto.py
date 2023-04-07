@@ -19,4 +19,3 @@ time.sleep(3)
 # driver.find_element(By.CLASS_NAME, "MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv").click()
 
 time.sleep(10)
-
