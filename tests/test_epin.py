@@ -555,72 +555,13 @@ class TestCaseForEPIN(unittest.TestCase):
         self.driver.find_element(
             By.XPATH,
             "//*[@id=':ra:']",
-        ).send_keys("00")
+        ).send_keys("000")
         # time.sleep(3)
         
-        Quantity_button = self.driver.find_element(
-            By.XPATH,
-            "//*[@id='scrollable-auto-tabpanel-1']/h6/div/div[2]/div[2]/div/div/button[2]",
-        )
-
-        if Quantity_button.is_enabled():
-            print("*"*100)
-            print("*"*100)
-            Quantity_button.click()
-            print("*"*100)
-            print("*"*100)
-        
-        else:
-            self.driver.close()
-
-
-
-        # Select to Buying for self
-        # self.driver.find_element(By.XPATH, "----------------//*[@id='scrollable-auto-tabpanel-1']/h6/div/div[2]/div[3]/div/button[2]").click()
-
-        # # buying for self in all FIELD IS BLANK OR # Fill information in buying for self
-        # self.driver.find_element(By.XPATH, "//*[@id=':rb:']").send_keys("Meet Thakkar")     # enter name
-        # self.driver.find_element(By.XPATH, "//*[@id=':rc:']").send_keys("meet164023@gmail.com")     # enter email
-        # self.driver.find_element(By.XPATH, "//*[@id=':rp:']").send_keys("91066")      # enter phone number
-
-        #                                     # This is not required in web. It's optional.
-        #                                     # self.driver.find_element(
-        #                                     #     By.CSS_SELECTOR,
-        #                                     #     "#scrollable-auto-tabpanel-1 > h6 > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-7.css-1odkrke > div:nth-child(4) > div > div:nth-child(4) > div > div > svg",
-        #                                     # ).click()      
-
-        # element = self.driver.find_element(
+        # Quantity_button = self.driver.find_element(
         #     By.XPATH,
-        #     "//*[@id='scrollable-auto-tabpanel-1']/h6/div/div[2]/div[6]/div/div[2]",
+        #     "//*[@id='scrollable-auto-tabpanel-1']/h6/div/div[2]/div[2]/div/div/button[2]",
         # )
-    
-        # # scroll till 'buy now' button is not find /
-        # self.driver.execute_script(
-        #     "window.scrollBy(0,1000)", " "
-        # )  # scroll till 1000 pixel /
-        # time.sleep(2)
-
-        # # self.driver.find_element(
-        # #     By.XPATH,
-        # #     "//*[@id='scrollable-auto-tabpanel-1']/h6/div/div[2]/div[6]/div/div[2]",
-        # # ).click()
-        # # time.sleep(1)
-
-        # button = self.driver.find_element(By.XPATH, '//*[@id="scrollable-auto-tabpanel-1"]/h6/div/div[2]/div[6]/div/div[2]')
-        # # button.click()
-        # if button.is_enabled():
-        #     # Run the part when button is enabled
-        #     button.click()
-        #     print(" "*200)
-        #     print(" "*200)
-        #     print("*"*200)
-        #     print(" "*200)
-        #     print(" "*200)
-        # else:
-        #     # Run this part if button is disabled
-        #     self.driver.close()
-        
-
 
 
 
