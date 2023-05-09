@@ -472,11 +472,11 @@ class TestCaseForEPIN(unittest.TestCase):
         if button.is_enabled():
             # Run the part when button is enabled
             button.click()
-            print(" "*200)
-            print(" "*200)
             print("*"*200)
-            print(" "*200)
-            print(" "*200)
+            print("*"*200)
+            print("*"*200)
+            print("*"*200)
+            print("*"*200)
         else:
             # Run this part if button is disabled
             self.driver.close()
